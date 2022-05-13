@@ -14,7 +14,7 @@ export class SettingsComponent implements OnInit {
 
   constructor(
     private dataService: DataService,
-    private snackBar: MatSnackBar
+    private snackBar: MatSnackBar    
   ) {}
 
   ngOnInit(): void {
