@@ -42,7 +42,7 @@ export class TodoListComponent implements OnInit {
     const dialogRef = this.dialog.open(EditDialogComponent, {
       data: {
         newItem: true,
-        item: this.todoService.getNewItem()
+        item: this.todoService.getNewItem()        
       }
     });
 
